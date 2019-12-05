@@ -1,0 +1,135 @@
+<?xml version="1.0"?>
+<doc>
+    <assembly>
+        <name>EmployeeManagement</name>
+    </assembly>
+    <members>
+        <member name="T:EmployeeManagement.ContextClass.EmployeeContext">
+            <summary>
+            DataBase Context
+            </summary>
+        </member>
+        <member name="T:EmployeeManagement.Controllers.EmpMgtController">
+            <summary>
+            Api Controllers for EmployeeManagement
+            </summary>
+        </member>
+        <member name="M:EmployeeManagement.Controllers.EmpMgtController.GetemployeeDetails">
+            <summary>
+            Get Detials of All Employees
+            </summary>
+            <returns></returns>
+        </member>
+        <member name="M:EmployeeManagement.Controllers.EmpMgtController.GetByEmpId(System.Int32)">
+            <summary>
+            Get Employee by id
+            </summary>
+            <param name="id"></param>
+            <returns></returns>
+        </member>
+        <member name="M:EmployeeManagement.Controllers.EmpMgtController.PostEmployee(EmployeeManagement.Models.EmployeeDetails)">
+            <summary>
+            Post details into database
+            </summary>
+            <param name="employeeDetails"></param>
+            <returns></returns>
+        </member>
+        <member name="M:EmployeeManagement.Controllers.EmpMgtController.DeleteEmployee(System.Int32)">
+            <summary>
+            Delete an User with specified id
+            </summary>
+            <param name="id"></param>
+            <returns></returns>
+        </member>
+        <member name="M:EmployeeManagement.Controllers.EmpMgtController.Authentication(EmployeeManagement.Models.EmployeeDetails)">
+            <summary>
+            Controller for Authentication
+            </summary>
+            <param name="employeeDetails"></param>
+            <returns></returns>
+        </member>
+        <member name="T:EmployeeManagement.Models.EmployeeDetails">
+            <summary>
+            Entity Model Of Employee Management
+            </summary>
+        </member>
+        <member name="T:EmployeeHelper.IEmployeeManager">
+            <summary>
+            Interface for the employee management 
+            </summary>
+        </member>
+        <member name="M:EmployeeHelper.IEmployeeManager.Getemployees">
+            <summary>
+            Get all the employee details
+            </summary>
+            <returns></returns>
+        </member>
+        <member name="M:EmployeeHelper.IEmployeeManager.GetemployeesByID(System.Int32)">
+            <summary>
+            Get employee details id
+            </summary>
+            <param name="Id"></param>
+            <returns></returns>
+        </member>
+        <member name="M:EmployeeHelper.IEmployeeManager.PostEmployeeDetails(EmployeeManagement.Models.EmployeeDetails)">
+            <summary>
+            Add the Employee to Database 
+            </summary>
+            <param name="employeeDetails"></param>
+            <returns></returns>
+        </member>
+        <member name="M:EmployeeHelper.IEmployeeManager.DeleteEmployeeDetails(System.Int32)">
+            <summary>
+            Delete's the employee with mentioned id
+            </summary>
+            <param name="id"></param>
+            <returns></returns>
+        </member>
+        <member name="M:EmployeeHelper.IEmployeeManager.AuthenticationUser(EmployeeManagement.Models.EmployeeDetails)">
+            <summary>
+            Authenticates the employee
+            </summary>
+            <param name="employeeDetails"></param>
+            <returns></returns>
+        </member>
+        <member name="T:EmployeeHelper.EmployeeManager">
+            <summary>
+            Bussiness Layer Class for Logic
+            </summary>
+        </member>
+        <member name="M:EmployeeHelper.EmployeeManager.Getemployees">
+            <summary>
+            Returns the List of Employees
+            </summary>
+            <returns></returns>
+        </member>
+        <member name="M:EmployeeHelper.EmployeeManager.GetemployeesByID(System.Int32)">
+            <summary>
+            Gets the Employees By Id
+            </summary>
+            <param name="Id"></param>
+            <returns></returns>
+        </member>
+        <member name="M:EmployeeHelper.EmployeeManager.PostEmployeeDetails(EmployeeManagement.Models.EmployeeDetails)">
+            <summary>
+            Post the Data into the Database
+            </summary>
+            <param name="employeeDetails"></param>
+            <returns></returns>
+        </member>
+        <member name="M:EmployeeHelper.EmployeeManager.DeleteEmployeeDetails(System.Int32)">
+            <summary>
+            Delete the Employees 
+            </summary>
+            <param name="id"></param>
+            <returns></returns>
+        </member>
+        <member name="M:EmployeeHelper.EmployeeManager.AuthenticationUser(EmployeeManagement.Models.EmployeeDetails)">
+            <summary>
+            Authenticates based on the details passed to function
+            </summary>
+            <param name="employeeDetails"></param>
+            <returns></returns>
+        </member>
+    </members>
+</doc>

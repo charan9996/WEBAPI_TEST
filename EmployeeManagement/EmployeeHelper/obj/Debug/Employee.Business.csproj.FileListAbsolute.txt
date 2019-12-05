@@ -1,0 +1,6 @@
+C:\Users\M1046907\Desktop\Web_API\EmployeeManagement\EmployeeHelper\bin\Debug\EmployeeHelper.dll
+C:\Users\M1046907\Desktop\Web_API\EmployeeManagement\EmployeeHelper\bin\Debug\EmployeeHelper.pdb
+C:\Users\M1046907\Desktop\Web_API\EmployeeManagement\EmployeeHelper\obj\Debug\Employee.Business.csprojAssemblyReference.cache
+C:\Users\M1046907\Desktop\Web_API\EmployeeManagement\EmployeeHelper\obj\Debug\Employee.Business.csproj.CoreCompileInputs.cache
+C:\Users\M1046907\Desktop\Web_API\EmployeeManagement\EmployeeHelper\obj\Debug\EmployeeHelper.dll
+C:\Users\M1046907\Desktop\Web_API\EmployeeManagement\EmployeeHelper\obj\Debug\EmployeeHelper.pdb
