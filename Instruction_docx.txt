@@ -1,4 +1,0 @@
-There are new views for web api project .Hence I have used Swagger in my application .
-
-
-1. When application is ran . just type "/Swagger". So that Swagger can be used. 
